@@ -1,0 +1,8 @@
+@font-face {
+    font-family: SpaceGrotesk-Light;
+    src: url(fonts/SpaceGrotesk-Light.ttf);
+  }
+
+  p {
+      font-family: "SpaceGrotesk-Light";
+  }
