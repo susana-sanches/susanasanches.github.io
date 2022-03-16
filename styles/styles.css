@@ -1,8 +1,94 @@
 @font-face {
-    font-family: SpaceGrotesk-Light;
-    src: url(./fonts/SpaceGrotesk-Light.ttf);
+    font-family: DMSans-Regular;
+    src: url(/fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: DMSans-Italic;
+    src: url(/fonts/DMSans-Italic.ttf);
+}
+
+.color-gray {
+    color: lightgray !important;
+}
+.color-black {
+    color: #000 !important;
+}
+  h1.navbar-brand {
+    font-family: "DMSans-Regular";
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  h3 {
+    font-family: "DMSans-Regular";
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
   }
 
   p {
-      font-family: "SpaceGrotesk-Light";
+    font-family: "DMSans-Regular";
+    font-size: 18px;
+  }
+
+  a {
+      color: #000;
+      transition: all .2s ease;
+  }
+
+  a:hover {
+      color: lightgray;
+      cursor: pointer;
+  }
+
+  .text-tiny {
+      font-size: 14px;
+      margin: 0;
+  }
+  p.text-big {
+      font-size: 50px;
+      line-height: 67px;
+  }
+
+  p.project-category {
+      font-family: "DMSans-Italic";
+      color: lightgray;
+      font-size: 24px;
+      line-height: 24px;
+      margin: 0;
+
+  }
+
+  nav {
+      height: 75px;
+  }
+
+  nav ul {
+    margin: 0 0 0 auto;
+  }
+
+  nav li .nav-link{
+    font-family: "DMSans-Regular";
+    font-size: 50px;
+    list-style: none;
+    display: inline-flex;
+    padding-left: 15px;
+    color: #000;
+    transition: all .2s ease;
+  }
+
+  nav li .nav-link:hover {
+      cursor: pointer;
+      color: lightgray;
+  }
+
+  .content {
+      margin-top: 160px;
+  }
+
+  section.border-top,
+  footer.border-top {
+      border-top: 1px solid #000 !important;
   }
